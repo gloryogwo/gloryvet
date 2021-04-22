@@ -1,15 +1,11 @@
-*{
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-
-
 .header img{
   height: 50px;
   width: 50px;
   margin: 5px;
+}
+
+.clr{
+  clear: float;
 }
 
 .header{
@@ -48,25 +44,16 @@ a.active{
   color: coral;
 }
 
-.color{
-  background-color: rgb(147, 230, 233) ;
+.dogs{
+  float: left;
+  width: 25%;
 }
 
-.home-page{
-  margin: 0 10px;
+.dogs img{
+  height: 275px;
+  width: 183px;
 }
 
-.home-page h1{
-  text-align: center;
-  padding-top: 20px;
-}
-
-
-
-.footer{
-  background-color: blue;
-  padding: 50px;
-  margin: 0;
-  color: white;
+.body h1{
   text-align: center;
 }

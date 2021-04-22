@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="GloryVET_files/about.css">
+  <title>GloryVET</title>
+</head>
+<body>
+  <div class="header">
+    <img src="GloryVET_files/images.jpg">
+    <h1>GloryVET</h1>
+  </div>
+
+  <div class="navbar">
+    <ul>
+      <li><a href="http://127.0.0.1:5500/index.html">Home</a></li>
+      <li><a class="active" href="http://127.0.0.1:5500/about.html">About Us</a></li>
+      <li><a href="http://127.0.0.1:5500/animal.html">My Animals</a></li>
+      <li><a href="http://127.0.0.1:5500/support.html">How to Support</a></li>
+    </ul>
+  </div>
+
+  <div class="dogs">
+     <img src="GloryVET_files/dog1.jpg">
+  </div>
+  <div class="dogs">
+     <img src="GloryVET_files/dog2.jpg">
+  </div>
+  <div class="dogs">
+     <img src="GloryVET_files/dog3.jpg">
+  </div>
+  <div class="dogs">
+     <img src="GloryVET_files/dog5.jpg">
+  </div>
+
+  <div class="clr"></div>
+  <hr>
+  <br>
+  <br>
+     
+  <div class="body">
+    <h1> About Us</h1>
+    <p>GloryVET,
+       established in 1976, is one of Lagos's largest non-profit
+       animal shelters. Since opening our doors, we have placed
+       over 145,000 cats and dogs in responsible, loving homes.</p>
+       <p>Our Shelter is located a half hour north of Boston and
+         is easily accessible from all of New England. We’re
+         open 7 days a week to make the adoption of a pet convenient
+         for the general public.
+
+        As soon as a dog or cat arrives at our facility, our
+       staff begins searching for the right match — a family 
+       or individual who will give the pet a wonderful home. 
+       While waiting for a forever home, our dogs and cats 
+       receive the best of care. Since each animal’s needs 
+       are unique, this may include medical care, training 
+       with our behavior team, or a special diet. Our pets 
+       are inoculated, wormed, and spayed or neutered prior 
+       to leaving the Shelter.
+        
+        Northeast Animal Shelter is proud of our many
+       programs, such as Saving Homeless Pets Across 
+       America, the Community Pet Food Bank, Foster Care,
+       and Senior Visitation. Visit Our Programs Page to 
+      learn more about the innovative ways we help animals
+     and our community.
+        
+         
+        
+        Northeast Animal Shelter receives no local, state
+       or federal funding and is entirely dependent on 
+       contributions from people like you to cover its
+       annual operating budget. Please show your commitment
+       to our work and the loving pets we serve. Make a donation today.</p>
+  </div>
+ 
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body></html>
